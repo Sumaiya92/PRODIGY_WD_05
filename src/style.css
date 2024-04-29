@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg
+{
+  @apply  bg-gradient-to-tl from-cyan-100 via-blue-300 to-indigo-400 rounded-lg shadow-xl
+}
